@@ -14,5 +14,7 @@ module.exports = {
       },
     },
   },
+  darkMode: false, // or 'media' or 'class'
+  lightMode: true,
   plugins: [],
 };

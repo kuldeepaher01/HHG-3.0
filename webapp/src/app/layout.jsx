@@ -14,11 +14,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-col">
+        <div className="flex">
+          
           <Sidebar />
-          <div className="flex">
           {children}
-          </div>
         
         </div>
         
